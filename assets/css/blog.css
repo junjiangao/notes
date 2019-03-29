@@ -225,3 +225,10 @@ div.authorimage {
     font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L",sans-serif;
     margin-top: 40px;
 }
+
+.categories {
+    float: right;
+    border: #D2D2D2 1px solid;
+    margin-right: 100px;
+    padding: 5px 5px;
+}

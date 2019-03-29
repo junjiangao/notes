@@ -4,6 +4,7 @@ title: 开始篇
 time: 2019年03月28日 星期四
 location: 北京
 pulished: true
+category: 随笔
 excerpt_separator: "```"
 ---
 

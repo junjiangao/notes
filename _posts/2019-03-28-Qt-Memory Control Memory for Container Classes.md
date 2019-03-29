@@ -4,6 +4,7 @@ title: Qt 容器类内存控制备忘
 time: 2019年03月28日 星期四
 location: 北京
 pulished: true
+category: Qt
 excerpt_separator: "```"
 ---
 
