@@ -1,4 +1,5 @@
 module.exports = {
+    base: "/notes/",
     title: "我的博客",
     description: "我的学习与工作总结",
     head: [
