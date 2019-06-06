@@ -12,7 +12,8 @@ module.exports = {
                 text: '文章列表',
                 items: [
                     { text: '随笔', link: '/articles/essays/' },
-                    { text: 'Qt', link: '/articles/qt/' }
+                    { text: 'Qt', link: '/articles/qt/' },
+                    { text: 'DataBase', link: '/articles/database/'}
                 ]
             },
             { text: 'github', link: 'https://github.com/junjiangao' }

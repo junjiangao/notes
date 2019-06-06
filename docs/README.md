@@ -10,5 +10,7 @@ features:
   details: 记录生活点点滴滴。
 - title: Qt
   details: Qt学习备忘
+- title: DataBase
+  details: 数据库相关
 footer: MIT Licensed | Copyright © 2019-present xyzhuanjian
 ---
