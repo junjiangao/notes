@@ -1,16 +1,20 @@
 {
   "name": "junjiangao.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "工作与学习总结",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "blog",
+    "notes",
+    "vuepress"
+  ],
+  "author": "junjiangao",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.44"
+    "vuepress": "^1.0.0-beta.2"
   }
 }
