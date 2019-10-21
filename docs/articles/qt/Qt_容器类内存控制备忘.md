@@ -25,7 +25,7 @@ excerpt_separator: "```"
 
 <code>QList</code>内存由Qt自身控制，会在程序结束后统一回收，很显然对长时间运行的程序，无法及时释放导致程序内存越来越大，我们需要手动控制内存。
 
-```C
+```C++
 void QList::reserve(int alloc)
 
 Reserve space for alloc elements.If alloc is smaller than the current size of 
@@ -36,6 +36,19 @@ pointer array.This function was introduced in Qt 4.7.
 ```
 
 使用<code>reserve()</code>预分配最大可用空间，在<code>Qlist</code>超过预分配的内存空间，在执行<code>clear()</code>时会马上释放多余分配的空间，从而实现对内存的控制。
+
+### 巧用容器类构造函数实现内存的释放
+
+```C++
+// 初始化容器类
+QList<T> list;
+list.pust(T);
+...
+
+// 释放
+QList<T>().swap(list);
+```
+这里使用swap函数，清空list分配的内存，实现资源的释放
 
 ## 结束
 目前先总结到这儿，期待后续修改的效果，在此做个记录。
