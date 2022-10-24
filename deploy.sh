@@ -3,6 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 设置环境变量
+export NODE_OPTIONS=--openssl-legacy-provider
+
 # 生成静态文件
 npm run docs:build
 
